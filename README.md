@@ -142,8 +142,7 @@ npm run dev
 - Backend API: http://localhost:3000
 - Default Admin Credentials: `admin` / `admin` (change after first login)
 
-![Class Management](docs/screenshots/classes.png)
-*Class management with enrollment tracking*
+
 
 ## 📁 Project Structure
 

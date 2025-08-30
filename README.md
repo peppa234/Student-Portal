@@ -1,7 +1,7 @@
 # 🎓 Student Portal - Complete School Management System
 
 
-![Student Portal Dashboard](docs/screenshots/dashboard.png)
+![Student Portal Dashboard](docs/dashboard.png)
 
 
 
@@ -38,7 +38,7 @@ A modern, full-stack school management application built with Node.js, Express, 
 - **Smooth animations** and transitions
 - **Intuitive navigation** and form interactions
 
-![Student Management](docs/screenshots/students.png)
+![Student Management](docs/students.png)
 
 *Management interface with search and filtering*
 
@@ -102,7 +102,7 @@ A modern, full-stack school management application built with Node.js, Express, 
 - **HTTP Client:** Axios with interceptors
 - **State Management:** React Context API
 
-![Teacher Management](docs/screenshots/teachers.png)
+![Teacher Management](docs/teachers.png)
 
 
 

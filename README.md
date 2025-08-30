@@ -7,10 +7,6 @@
 
 A modern, full-stack school management application built with Node.js, Express, MongoDB, React, and TypeScript. This comprehensive system provides administrators with complete tools to manage students, teachers, classes, and subjects through a beautiful, responsive interface.
 
-## 🎥 Video Demo
-
-[![Student Portal Demo](docs/videos/thumbnail.png)](docs/videos/video.mp4)
-*Click to watch the full application demo*
 
 ## ✨ Features
 

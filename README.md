@@ -117,7 +117,7 @@ A modern, full-stack school management application built with Node.js, Express, 
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/peppa234/Student-Portal
 cd student-portal
 
 # Install all dependencies (root, backend, and frontend)

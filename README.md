@@ -106,44 +106,6 @@ A modern, full-stack school management application built with Node.js, Express, 
 
 
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 16+ 
-- MongoDB 5+
-- npm 8+
-
-### Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/peppa234/Student-Portal
-cd student-portal
-
-# Install all dependencies (root, backend, and frontend)
-npm run install:all
-
-# Set up environment variables
-cp back-new/env.example back-new/.env
-
-# Initialize the database with secure credentials
-cd back-new
-npm run migrate:jwt        # Generate JWT secret
-npm run migrate:password   # Hash admin password
-npm run seed               # Initialize database counters
-
-# Start development servers (both backend and frontend)
-cd ..
-npm run dev
-```
-
-**Access the application:**
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:3000
-- Default Admin Credentials: `admin` / `admin` (change after first login)
-
-
-
 ## 📁 Project Structure
 
 ```
@@ -310,74 +272,6 @@ For complete database schema details, see [Architecture Documentation](docs/arch
 - **Helmet.js**: Security headers protection
 - **MongoDB Sanitization**: Injection attack prevention
 
-## 🚀 Deployment
-
-### Frontend Deployment (Vercel/Netlify)
-```bash
-cd frontend
-npm run build
-# Deploy dist/ folder to your static hosting service
-```
-
-### Backend Deployment (Heroku/Render)
-```bash
-cd back-new
-npm install --production
-# Set production environment variables
-npm start
-```
-
-### Environment Variables (Production)
-```bash
-# Server Configuration
-PORT=3000
-NODE_ENV=production
-
-# MongoDB Configuration
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/student_portal
-
-# JWT Configuration  
-JWT_SECRET=your_production_jwt_secret_change_this
-JWT_EXPIRE=24h
-
-# Admin Credentials (HASHED)
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD_HASH=bcrypt_hash_here
-
-# Security Settings
-CORS_ORIGIN=https://yourdomain.com
-RATE_LIMIT_WINDOW_MS=900000
-RATE_LIMIT_MAX_REQUESTS=100
-AUTH_RATE_LIMIT_MAX=50
-```
-
-### Database Deployment
-- **Development**: Local MongoDB instance
-- **Production**: MongoDB Atlas (recommended) or self-hosted cluster
-
-## 📊 Performance Optimization
-
-### Frontend Optimizations
-- **Code Splitting**: Automatic with Vite and React.lazy()
-- **Bundle Optimization**: Tree shaking and minification
-- **Caching Strategy**: API response caching
-- **Lazy Loading**: Images and components as needed
-
-### Backend Optimizations  
-- **Database Indexing**: Strategic indexes on frequently queried fields
-- **Pagination**: All list endpoints support pagination
-- **Connection Pooling**: Efficient MongoDB connection management
-- **Response Compression**: Gzip compression for API responses
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ### Development Scripts
 ```bash

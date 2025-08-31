@@ -197,8 +197,6 @@ For full API documentation with request/response examples, see [API Documentatio
    - Monitor attendance patterns (future)
    - Export data for external analysis
 
-### Complete User Flow Documentation
-For detailed user personas and workflow diagrams, see [User Flow Documentation](docs/user-flow.md).
 
 ## 🗄️ Database Schema
 
@@ -301,7 +299,6 @@ For support and questions:
 
 - 📚 [Complete Documentation](docs/)
 - 🔌 [API Reference](docs/api.md)
-- 👥 [User Guides](docs/user-flow.md)
 - 🏗️ [Technical Architecture](docs/architecture.md)
 
 ## 🔮 Roadmap

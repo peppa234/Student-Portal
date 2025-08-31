@@ -396,51 +396,6 @@ frontend/
 8. User sees appropriate error message
 ```
 
-## 🚀 Deployment Architecture
-
-### Development Environment
-- **Frontend:** Vite dev server on port 5173
-- **Backend:** Nodemon on port 3000
-- **Database:** Local MongoDB instance
-- **Hot Reload:** Automatic restart on file changes
-
-### Production Environment
-- **Frontend:** Static build deployed to CDN
-- **Backend:** Node.js process with PM2/forever
-- **Database:** MongoDB Atlas or self-hosted cluster
-- **Load Balancing:** Multiple backend instances
-- **Caching:** Redis for session management
-- **Monitoring:** Health checks and logging
-
-### Scalability Considerations
-- **Horizontal Scaling:** Multiple backend instances
-- **Database Sharding:** Partition data across clusters
-- **CDN:** Static asset distribution
-- **Caching:** Redis for frequently accessed data
-- **Load Balancing:** Distribute traffic across servers
-
-## 🔒 Security Architecture
-
-### Authentication Security
-- **JWT Tokens:** Stateless authentication with expiration
-- **Password Hashing:** bcrypt with configurable salt rounds
-- **Token Storage:** Secure localStorage with automatic cleanup
-- **Session Management:** Automatic logout on token expiration
-
-### API Security
-- **Rate Limiting:** Configurable limits per route type
-- **Input Validation:** Comprehensive server-side validation
-- **Data Sanitization:** MongoDB injection protection
-- **CORS Policy:** Strict origin validation
-- **Security Headers:** Helmet middleware protection
-
-### Data Security
-- **Encryption:** HTTPS for all communications
-- **Access Control:** Role-based permissions
-- **Audit Logging:** Track administrative actions
-- **Data Backup:** Regular database backups
-- **Privacy Compliance:** GDPR-ready data handling
-
 ## 📊 Monitoring and Observability
 
 ### Logging Strategy
